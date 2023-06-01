@@ -1,0 +1,20 @@
+{
+    "name": "halfnine/surveyr-laravel",
+    "description": "Laravel integration for Surveyr",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "HalfNine\\Surveyr\\": "src/"
+        }
+    },
+    "require": {
+        "guzzlehttp/guzzle": "6.*|7.*"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "HalfNine\\Surveyr\\SurveyrServiceProvider"
+            ]
+        }
+    }
+}
